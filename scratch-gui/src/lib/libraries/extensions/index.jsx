@@ -199,14 +199,14 @@ export default [
     {
         name: 'Alpy',
         extensionId: 'alpy',
-        collaborator: 'alpy',
+        collaborator: 'Alpy',
         iconURL: microbitIconURL,
         insetIconURL: microbitInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="Connect your projects with the world."
-                description="Description for the 'micro:bit' extension"
-                id="gui.extension.microbit.description"
+                defaultMessage="Alpy Educational Robot"
+                description="Description for the 'Alpy' extension"
+                id="gui.extension.alpy.description"
             />
         ),
         featured: true,
@@ -214,17 +214,16 @@ export default [
         bluetoothRequired: true,
         internetConnectionRequired: true,
         launchPeripheralConnectionFlow: true,
-        useAutoScan: false,
+        useAutoScan: true,
         connectionIconURL: microbitConnectionIconURL,
         connectionSmallIconURL: microbitConnectionSmallIconURL,
         connectingMessage: (
             <FormattedMessage
                 defaultMessage="Connecting"
                 description="Message to help people connect to their micro:bit."
-                id="gui.extension.microbit.connectingMessage"
+                id="gui.extension.alpy.connectingMessage"
             />
-        ),
-        helpLink: 'https://scratch.mit.edu/microbit'
+        )
     },
     {
         name: 'LEGO MINDSTORMS EV3',
